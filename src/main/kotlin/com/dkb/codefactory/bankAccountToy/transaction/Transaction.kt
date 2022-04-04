@@ -14,7 +14,9 @@ data class Transaction(
     var id: Long? = null,
 
     val amount: BigDecimal,
+
     val sourceBalance: BigDecimal?,
+
     val date: LocalDate,
 
     @Enumerated(EnumType.STRING)
@@ -27,7 +29,4 @@ data class Transaction(
     @ManyToOne(cascade = [CascadeType.ALL])
     @JoinColumn(name = "target_iban")
     val target: Account?
-
-) {
-
-}
+)

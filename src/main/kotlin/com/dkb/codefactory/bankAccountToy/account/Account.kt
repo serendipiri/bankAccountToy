@@ -5,11 +5,10 @@ import java.math.BigDecimal
 import javax.persistence.*
 
 @Entity
-//@Inheritance(strategy = InheritanceType.JOINED)
-open class Account(
-
+data class Account(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "iban", nullable = false)
     var iban: Long? = null,
 
     @Enumerated(EnumType.STRING)
@@ -22,7 +21,6 @@ open class Account(
     var blocked: Boolean? = false,
 
     var checkingIbanForSavings : Long?
-
 )
 
 
