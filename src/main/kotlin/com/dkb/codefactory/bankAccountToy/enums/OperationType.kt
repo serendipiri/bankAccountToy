@@ -1,4 +1,4 @@
-package com.dkb.codefactory.bankAccountToy.account.enums
+package com.dkb.codefactory.bankAccountToy.enums
 
 enum class OperationType {
     DEPOSIT,

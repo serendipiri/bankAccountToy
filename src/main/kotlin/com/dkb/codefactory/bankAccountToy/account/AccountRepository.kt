@@ -1,6 +1,6 @@
 package com.dkb.codefactory.bankAccountToy.account
 
-import com.dkb.codefactory.bankAccountToy.account.enums.AccountType
+import com.dkb.codefactory.bankAccountToy.enums.AccountType
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.jpa.repository.Modifying
 import org.springframework.data.jpa.repository.Query

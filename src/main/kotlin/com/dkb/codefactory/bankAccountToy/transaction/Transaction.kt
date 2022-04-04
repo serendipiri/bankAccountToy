@@ -1,7 +1,7 @@
 package com.dkb.codefactory.bankAccountToy.transaction
 
 import com.dkb.codefactory.bankAccountToy.account.Account
-import com.dkb.codefactory.bankAccountToy.account.enums.OperationType
+import com.dkb.codefactory.bankAccountToy.enums.OperationType
 import java.math.BigDecimal
 import java.time.LocalDate
 import javax.persistence.*

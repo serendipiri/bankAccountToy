@@ -2,7 +2,7 @@ package com.dkb.codefactory.bankAccountToy.account.operation
 
 import com.dkb.codefactory.bankAccountToy.account.Account
 import com.dkb.codefactory.bankAccountToy.account.AccountRepository
-import com.dkb.codefactory.bankAccountToy.account.enums.OperationType
+import com.dkb.codefactory.bankAccountToy.enums.OperationType
 import com.dkb.codefactory.bankAccountToy.transaction.Transaction
 import com.dkb.codefactory.bankAccountToy.transaction.TransactionRepository
 import java.math.BigDecimal

@@ -1,7 +1,7 @@
 package com.dkb.codefactory.bankAccountToy.account.dto
 
 import com.dkb.codefactory.bankAccountToy.account.Account
-import com.dkb.codefactory.bankAccountToy.account.enums.AccountType
+import com.dkb.codefactory.bankAccountToy.enums.AccountType
 import java.io.Serializable
 
 data class AccountRequestDTO(

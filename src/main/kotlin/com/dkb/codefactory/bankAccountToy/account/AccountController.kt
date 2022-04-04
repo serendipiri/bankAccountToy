@@ -2,7 +2,7 @@ package com.dkb.codefactory.bankAccountToy.account
 
 import com.dkb.codefactory.bankAccountToy.account.dto.AccountRequestDTO
 import com.dkb.codefactory.bankAccountToy.account.dto.OperationRequestDTO
-import com.dkb.codefactory.bankAccountToy.account.enums.AccountType
+import com.dkb.codefactory.bankAccountToy.enums.AccountType
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PatchMapping

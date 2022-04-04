@@ -1,6 +1,6 @@
 package com.dkb.codefactory.bankAccountToy.account.dto
 
-import com.dkb.codefactory.bankAccountToy.account.enums.OperationType
+import com.dkb.codefactory.bankAccountToy.enums.OperationType
 import java.math.BigDecimal
 
 data class OperationRequestDTO(

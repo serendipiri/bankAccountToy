@@ -1,7 +1,7 @@
 package com.dkb.codefactory.bankAccountToy.account
 
 import com.dkb.codefactory.bankAccountToy.account.dto.OperationRequestDTO
-import com.dkb.codefactory.bankAccountToy.account.enums.AccountType
+import com.dkb.codefactory.bankAccountToy.enums.AccountType
 import com.dkb.codefactory.bankAccountToy.account.operation.AccountOperation
 import com.dkb.codefactory.bankAccountToy.account.operation.AccountOperationFactory
 import org.springframework.stereotype.Service

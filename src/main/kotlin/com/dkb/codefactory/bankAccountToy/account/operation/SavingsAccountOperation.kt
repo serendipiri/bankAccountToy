@@ -2,8 +2,8 @@ package com.dkb.codefactory.bankAccountToy.account.operation
 
 import com.dkb.codefactory.bankAccountToy.account.Account
 import com.dkb.codefactory.bankAccountToy.account.AccountRepository
-import com.dkb.codefactory.bankAccountToy.account.enums.AccountType
-import com.dkb.codefactory.bankAccountToy.account.enums.OperationType
+import com.dkb.codefactory.bankAccountToy.enums.AccountType
+import com.dkb.codefactory.bankAccountToy.enums.OperationType
 import com.dkb.codefactory.bankAccountToy.transaction.TransactionRepository
 import org.springframework.stereotype.Component
 import java.math.BigDecimal
